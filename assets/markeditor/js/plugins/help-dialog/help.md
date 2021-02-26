@@ -2,7 +2,7 @@
 
 - [Sintaxis básica de Markdown](https://es.markdown.net.br/sintaxis-basica/ "Sintaxis básica de Markdown")
 - [Sintaxis avanzada de Markdown](https://es.markdown.net.br/sintaxis-extendida/ "Sintaxis avanzada de Markdown")
-- [Introducción a Markdown](https://markdown.net.br/introduccion/ "Introducción a Markdown")
+- [Introducción a Markdown](https://es.markdown.net.br/introduccion/ "Introducción a Markdown")
 
 ##### Atajos de teclado
 
