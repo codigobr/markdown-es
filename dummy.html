@@ -1,0 +1,182 @@
+﻿<h1 class="header">Zettlr</h1>
+<h4 class="light">Zettlr é um aplicativo Markdown gratuito e de código aberto desenvolvido para redação acadêmica.</h4>
+
+<h2 class="header" id="visao-geral">Visão geral</h2>
+
+<p>Ele fornece muitas ferramentas poderosas para ajudá-lo a escrever textos acadêmicos mais facilmente.</p>
+
+<p>O objetivo declarado do aplicativo é simples: “Permitir que pesquisadores de artes e humanas, por exemplo, pessoas sem nenhum conhecimento de programação, se libertem de programas que custam centenas de reais. Abrir caminho para uma era de código aberto. Competir seriamente com processadores de texto.”</p>
+
+<div class="image-container mv-30">
+  <img src="/assets/img/zettlr_view-window.png" class="materialboxed" alt="Janela do aplicativo Zettlr">
+</div>
+
+<p><strong>Site</strong>: <a href="https://www.zettlr.com/" target="_blank">https://www.zettlr.com/</a></p>
+
+<h2 class="header" id="markdown">Markdown no Zettlr</h2>
+
+O Zettlr implementa uma mistura de diferentes dialetos do Markdown. O próprio editor destaca apenas o Markdown com sabor do GitHub <em>GitHub Flavored Markdown</em>, além de alguns elementos extras que estendem a sintaxe do Markdown com os elementos Zettelkasten. Você também pode adicionar comandos LaTeX.
+
+<h2 class="header" id="suporte-markdown">Suporte do Markdown no Zettlr</h2>
+
+<p>O Zettlr fornece suporte para os seguintes elementos Markdown.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Elemento</th>
+      <th>Suporte</th>
+      <th>Obs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/sintaxe-basica/#titulos">Títulos</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#paragrafos">Parágrafos</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#quebra-linha">Quebras de linha</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td>Além do espaço em branco à direita, você também pode usar uma barra invertida (<code class="lang-plaintext">\</code>) ou pressionar a tecla <code class="lang-plaintext">Enter</code> uma vez para obter o mesmo resultado.</td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#negrito">Negrito</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#italico">Itálico</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#bloco-citacao">Bloco de citação</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#listas-ordenadas">Listas ordenadas</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#listas-nao-ordenadas">Listas não ordenadas</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#codigo">Código</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#linhas-horizontais">Linhas horizontais</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#links">Links</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#imagens">Imagens</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#tabelas">Tabelas</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#bloco-codigo-cercado">Blocos de código cercado</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td>No Zettlr você precisa identificar a linguagem de programação logo na abertura do bloco de código cercado, exemplo:<br>
+        <pre class="lang-markdown"><code>```javascript
+var nome = "Robert";
+console.log("Seu nome é: " + nome);
+```</code></pre>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#notas-rodape">Notas de rodapé</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#id-titulo">Id de títulos</a></td>
+      <td class="yellow lighten-4">Parcial</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#lista-definicoes">Listas de definições</a></td>
+      <td class="red lighten-4">Não</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#riscado">Riscado</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#lista-tarefas">Listas de tarefas</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#emojis">Emoji (copiar e colar)</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#usando-codigo-emoji">Emoji (códigos de acesso)</a></td>
+      <td class="red lighten-4">Não</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#link-automatico-url">Link automático de URL</a></td>
+      <td class="green lighten-4">Sim</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-estendida/#desativando-link-automatico">Desativar o link automático de URL</a></td>
+      <td class="red lighten-4">Não</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="/sintaxe-basica/#html">HTML</a></td>
+      <td class="white lighten-4">Desconhecido</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 class="header" id="veja-tambem">Veja também</h2>
+
+<p><a href="https://docs.zettlr.com/en/" target="_blank">Documentação do Zettlr</a></p>
+
+<h2 class="header" id="elementos-adicionais">Suporte para elementos de sintaxe adicionais</h2>
+
+<p>O Zettlr também é compatível com alguns elementos obscuros.</p>
+<table class="table table-bordered" style="font-size: 14px">
+  <thead class="thead-light">
+    <tr>
+      <th>Elemento</th>
+      <th>Markdown</th>
+      <th>Saída renderizada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Realçar</td>
+      <td><code>==palavra ou frase==</code></td>
+      <td><mark>palavra ou frase</mark></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69958365-6"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-69958365-6');
+    </script>
+    <!-- Auto ads - Google -->
+    <script data-ad-client="ca-pub-3427355473051563" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="canonical" href="https://es.markdown.net.br/herramientas/standard-notes/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="author" content="Robert Salles">
+    <meta name="description" content="Completo tutorial de Markdown™ para principiantes con varios ejemplos de cómo usar el lenguaje de marcado más simple del mundo.">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://es.markdown.net.br/herramientas/standard-notes/">
+    <meta property="og:title" content="Markdown™ en Standard Notes® - Guía completa [Cheatsheet]">
+    <meta property="og:description" content="Completo tutorial de Markdown™ para principiantes con varios ejemplos de cómo usar el lenguaje de marcado más simple del mundo.">
+    <meta property="og:image" content="https://markdown.net.br/assets/img/markdown.jpg">
+
+    <title>Markdown™ en Standard Notes® - Guía completa [Cheatsheet]</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2196f3">
+    <meta name="msapplication-TileColor" content="#2196f3">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#2196f3">
+    <!-- CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://markdown.net.br/assets/css/bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.css" integrity="sha256-nOfkEPu/TzBvIxN8D/vW8weOUczzDbxRjgik/hA2hBI=" crossorigin="anonymous" />
+    <style type="text/css">
+    	.mv-40 {
+    		margin-top: 40px;
+    		margin-bottom: 40px;
+    	}
+
+    	img[src=""],
+    	img:not([src]) {
+    	  visibility: hidden;
+    	}
+
+    	.caption {
+    	    display: flex;
+    	    justify-content: center;
+    	    align-items: center;
+    	    margin: 10px 0;
+    	    color: hsl(0deg 0% 33%);
+    	    font-style: italic;
+    	    font-size: 75%;
+    	}
+
+    	picture {
+    		display: block;
+    		position: relative;
+    	}
+
+    	.cover-link {
+    		position: absolute;
+    		top: 0;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    	}
+    </style>
+  </head>
+  <body class="themes" cz-shortcut-listen="true">
+    <div id="layout-problem" style="display:none;position:fixed;bottom:20px;left:5px;right:5px;z-index:9999;border-radius:10px;"><div class="layout-problem__container" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;position:relative;"><div class="layout-problem__msg" style="background-color:white;color:#222;padding:5px 35px;border-radius:10px;display:flex;align-items:center;border:2px solid #f44336;box-shadow:1px 4px 8px 4px #0000004a;position:relative;"><div style="color:#f44336;font-size:45px;font-weight:bold;background-color:white;border-radius:50px;margin-right:20px;">!</div><p style="font-size: 18px;">Foi detectado um <strong>problema</strong> com o layout do site!<br>É recomendável desabilitar o <span class="red-text"><strong>Ad-Blocker</strong></span><br>Ou qualquer extensão que bloqueie <strong>JavaScript</strong>.</p><div id="close-error-script-bt" style="position:absolute;top:3px;right:12px;cursor:pointer;">X</div></div></div></div>
+    <header>
+      <div class="container">
+  <a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle">
+  <i class="material-icons">menu</i>
+  </a>
+</div>
+<ul id="nav-mobile" class="sidenav">
+  <li class="logo blue">
+    <a id="logo-container" href="/" class="brand-logo">
+    <img src="/assets/img/markdown-logo-transparent.svg" height="100">
+    </a>
+  </li>
+  <li class="push-it-down"></li>
+  <li class="search white">
+    <div class="search-wrapper">
+      <input id="search" placeholder="Buscar"><i class="material-icons">search</i>
+      <div class="search-results"></div>
+    </div>
+  </li>
+  <li class="bold white">
+    <a href="/introduccion/" class="waves-effect waves-blue"><i class="tiny material-icons">child_care</i>Introducción</a>
+  </li>
+  <li class="bold white">
+    <a href="/sintaxis-basica/" class="waves-effect waves-blue"><i class="tiny material-icons">short_text</i>Sintaxis Básica</a>
+  </li>
+  <li class="bold white">
+    <a href="/sintaxis-extendida/" class="waves-effect waves-blue"><i class="tiny material-icons">format_align_left</i>Sintaxis Extendida</a>
+  </li>
+  <li class="bold white">
+    <a href="/cheatsheet/" class="waves-effect waves-blue"><i class="tiny material-icons">help_outline</i>Cheatsheet</a>
+  </li>
+  <li class="bold white">
+    <a href="/herramientas/" class="waves-effect waves-blue"><i class="tiny material-icons">card_travel</i>Herramientas</a>
+  </li>
+</ul>
+    </header>
+    <main>
+      <div class="section" id="index-banner">
+        <div class="container">
+          <div class="row" style="margin-bottom: 0;">
+            <div class="col s12 m6 l7 offset-m1 offset-l1">
+              <h1>Standard Notes</h1>
+              <h4 class="light">Standard Notes es una aplicación de toma de notas simple, segura y de código abierto.</h4>
+              <ol class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                  <a itemprop="item" href="/">
+                      <span itemprop="name">Markdown</span></a>
+                  <meta itemprop="position" content="1" />
+                </li>
+                <li>
+<i class="fas fa-chevron-right chevron-separator"></i>
+</li>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<a itemprop="item" href="/herramientas/">
+<span itemprop="name">Editores de Markdown</span>
+</a>
+<meta itemprop="position" content="2" />
+</li>
+<li>
+<i class="fas fa-chevron-right chevron-separator"></i>
+</li>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+<span itemprop="name">Standard Notes</span>
+<meta itemprop="position" content="3" />
+</li>
+
+              </ol>
+            </div>
+            <div class="col s12 m5 l4 mt-s-30" align="center">
+            	<!-- square-fixed-300-250 -->
+            	<ins class="adsbygoogle"
+            	     style="display:inline-block;width:300px;height:250px"
+            	     data-ad-client="ca-pub-3427355473051563"
+            	     data-ad-slot="1035906960"></ins>
+            	<script>
+            	     (adsbygoogle = window.adsbygoogle || []).push({});
+            	</script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!--  Outer row  -->
+        <div class="row">
+          <div class="section col s12 m8 offset-m1 xl7 offset-xl1">
+            <div class="row scrollspy">
+  <div class="col s12">
+    <h2 id="intro">Visión general</h2>
+
+    <p>Standard Notes es una aplicación gratuita para tomar notas que ofrece excelentes funciones al usuario.</p>
+
+    <div class="image-container mv-30">
+      <img src="https://markdown.net.br/assets/img/standard-notes-window.png" class="materialboxed" alt="Ventana de la aplicación Standard Notes!" title="Ventana de la aplicación Standard Notes!">
+    </div>
+
+    <p>La herramienta no admite Markdown de forma predeterminada, pero puede habilitarla al comprar la licencia extendida para la aplicación.</p>
+
+    <p>Con esta licencia tienes acceso a varias extensiones para modificar el comportamiento del programa, una de las cuales es <a href="https://standardnotes.org/extensions/advanced-markdown" target="_blank">Advanced Markdown</a>.</p>
+
+    <p class="mv-40">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-3427355473051563"
+             data-ad-slot="3854885260"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </p>
+
+    <p>Los elementos Markdown enumerados en este artículo se basan en esta extensión.</p>
+
+    <p>Pero, ¿por qué usar Standard Notes?</p>
+
+    <p>Con una gran variedad de opciones para que elijas entre las aplicaciones Markdown, ¿por qué usar Standard Notes?</p>
+
+    <p>Pues ofrece al usuario una excelente experiencia con sincronización, privacidad y varias extensiones.</p>
+
+    <p>El equipo de Standard Notes también está comprometido con la filosofía de código abierto, dando al programa más transparencia y aumentando la confiabilidad del proyecto.</p>
+
+    <p class="mv-40">
+        <ins class="adsbygoogle"
+             style="display:block; text-align:center;"
+             data-ad-layout="in-article"
+             data-ad-format="fluid"
+             data-ad-client="ca-pub-3427355473051563"
+             data-ad-slot="3854885260"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </p>
+
+    <p>La compatibilidad es otro punto fuerte de app, la mayoría de las plataformas tienen versiones disponibles para ellas.</p>
+
+    <p>Puede encontrar más información sobre Standard Notes en el sitio web oficial <a href="https://standardnotes.org/" target="_blank">https://standardnotes.org/</a>.</p>
+
+    <h2 id="suporte-markdown">Soporte para Markdown en Standard Notes</h2>
+
+    <p>En <a href="#table-1-1">Tabla 1.1</a> se muestran los elementos Markdown compatibles con Standard Notes usando la extensión Advanced Markdown.</p>
+
+    <table class="responsive-table" id="table-1-1">
+      <thead>
+        <tr>
+          <th>Elemento</th>
+          <th>Soporte</th>
+          <th>Información</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="/sintaxis-basica/#headings" target="_blank">Títulos</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#paragraphs" target="_blank">Párrafos</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#line-break" target="_blank">Saltos de línea</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td>En Standard Notes puede usar una barra invertida <code class="lang-plaintext">\</code> para romper la línea en lugar del espacio en blanco a la derecha del contenido.</td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#bold" target="_blank">Negrita</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#italics" target="_blank">Itálico</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#blockquote" target="_blank">Blockquote</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#lists-ordered" target="_blank">Listas ordenadas</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#lists-unordered" target="_blank">Listas desordenadas</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#code" target="_blank">Código</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#horizontal-rule" target="_blank">Lineas horizontales</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#links" target="_blank">Links</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#images" target="_blank">Imagenes</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-tables" target="_blank">Tablas</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#fenced-code-block" target="_blank">Bloques de código cercados</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td>Desafortunadamente, no es posible resaltar la sintaxis del contenido dentro del bloque, Standard Notes no ofrece compatibilidad.</td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-footnotes" target="_blank">Notas al pie</a></td>
+          <td class="red lighten-4">No</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-title-id" target="_blank">ID de título</a></td>
+          <td class="red lighten-4">No</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-definition-lists" target="_blank">Listas de definiciones</a></td>
+          <td class="red lighten-4">No</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-strikethrough" target="_blank">Tachado</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td>Es posible usar uno o dos mosaicos alrededor del contenido que desea agregar, ejemplo: <code class="lang-plaintext">~texto tachado~</code> o <code class="lang-plaintext">~~texto tachado~~</code>.</td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-task-lists" target="_blank">Listas de tareas</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#emojis-copy-and-paste" target="_blank">Emoji (copiar y pegar)</a></td>
+          <td class="white lighten-4">Desconocido</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#emojis-access-code" target="_blank">Emoji (códigos de acceso)</a></td>
+          <td class="white lighten-4">Desconocido</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-auto-link" target="_blank">URL Link automático</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-extendida/#markdown-disable-auto-link" target="_blank">Desactivar link automático de URL</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><a href="/sintaxis-basica/#html" target="_blank">HTML</a></td>
+          <td class="green lighten-4">Sí</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="see-also">Vea también</h2>
+
+    <p><a href="https://github.com/standardnotes/Web" target="_blank">Standard Notes: Repositorio en GitHub (aplicación Web)</a></p>
+  </div> <!-- Fim do conteúdo principal -->
+
+</div>
+            <div class="col-12">
+  <ul class="collapsible">
+    <li class="active">
+      <div class="collapsible-header grey lighten-4"><i class="material-icons">share</i>Compartir</div>
+      <div class="collapsible-body">
+        <div class="collection">
+          <a href="#!" class="collection-item" data-sharer="twitter" data-title="Markdown™ en Standard Notes® - Guía completa [Cheatsheet]" data-hashtags="markdown" data-url="https://es.markdown.net.br/herramientas/standard-notes/">
+            <i class="fab fa-twitter color-twitter"></i>&nbsp;&nbsp;Compartir en Twitter
+          </a>
+          <a href="#!" class="collection-item" data-sharer="facebook" data-hashtag="markdown" data-url="https://es.markdown.net.br/herramientas/standard-notes/">
+            <i class="fab fa-facebook color-facebook"></i>&nbsp;&nbsp;Compartir en Facebook
+          </a>
+          <a href="#!" class="collection-item" data-sharer="linkedin" data-url="https://es.markdown.net.br/herramientas/standard-notes/">
+            <i class="fab fa-linkedin color-linkedin"></i>&nbsp;&nbsp;Compartir en Linkedin
+          </a>
+          <a href="#!" class="collection-item" data-sharer="email" data-title="Markdown™ en Standard Notes® - Guía completa [Cheatsheet]" data-url="https://es.markdown.net.br/herramientas/standard-notes/" data-subject="¡Hola! ¿Cómo estas? Encontré este tutorial de Markdown muy fácil de seguir, échale un vistazo cuando puedas. Espero que sea de utilidad, hasta luego." data-to="email@host.com">
+            <i class="fas fa-envelope color-email"></i>&nbsp;&nbsp;Compartir por e-mail
+          </a>
+          <a href="#!" class="collection-item" data-sharer="whatsapp" data-title="Markdown™ en Standard Notes® - Guía completa [Cheatsheet]" data-url="https://es.markdown.net.br/herramientas/standard-notes/">
+            <i class="fab fa-whatsapp color-whatsapp"></i>&nbsp;&nbsp;Compartir por Whatsapp
+          </a>
+          <a href="#!" class="collection-item" data-sharer="telegram" data-title="Markdown™ en Standard Notes® - Guía completa [Cheatsheet]" data-url="https://es.markdown.net.br/herramientas/standard-notes/" data-to="(00) 99999-9999">
+            <i class="fab fa-telegram color-telegram"></i>&nbsp;&nbsp;Compartir por Telegram
+          </a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+          </div>
+          <!-- Table of contents -->
+          <div class="col hide-on-small-only m3 xl3 offset-xl1">
+            <div class="toc-wrapper" id="sticky-navigator">
+            </div>
+          </div>
+          <!-- Table of contents -->
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer docs-footer">
+  <div class="container">
+    <div class="row" style="margin-bottom: 0;">
+      <div class="col s12 m10 offset-m1">
+        <div class="row">
+          <div class="col l4 s12" style="overflow: hidden;">
+            <a href="https://twitter.com/CodigoNetwork" class="twitter-follow-button" data-show-count="true" data-size="large" data-dnt="true">Seguir @CodigoNetwork</a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div>
+            &copy;&nbsp;<noscript>2020</noscript><script type="text/javascript">document.write(new Date().getFullYear());</script> <strong>Markdown</strong>, Todos los derechos reservados.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!--  Scripts-->
+    <script src="https://markdown.net.br/assets/js/bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/show-invisibles/prism-show-invisibles.min.js" integrity="sha256-1baFoczEXwdtWBiZ6gbu7W1kn6XfPgKY4LkQQYNHTkM=" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-asciidoc.min.js" integrity="sha256-Z6qgXS53J00CrN9qHl3CxGqX2A3qs6HwGi96bnk2e4w=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-markdown.min.js" integrity="sha256-LVbOCHxYsNr9pF5KGdB2NphtO2FKM92SGFxRkWc9Ovg=" crossorigin="anonymous"></script>
+    <script src="/assets/js/search.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.min.js"></script>
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.youtube.min.js"></script>
+    <script src="/assets/js/vendor/jquery.lazy@1.7.9/jquery.lazy.picture.min.js"></script>
+    <!-- Lightbox das imagens -->
+    <script>
+      $(document).ready(function(){
+         $('.materialboxed').materialbox();
+
+         $('picture.lazy-img.unloaded, img.lazy-img, iframe.lazy-yt.unloaded').Lazy({
+             effect: 'fadeIn',
+             effectTime: 1000
+             // called after an element was successfully handled
+             // afterLoad: function(element) {
+             // // Remove a animação do loader da imagem
+             //     // element.height(element.closest('.img-lazy-container').find('.image-placeholder').height());
+
+             //     element.removeClass('unloaded');
+             // }
+         });
+       });
+      anchors.add("h2, h3, h5");
+      $('#sticky-navigator').stickyNavigator();
+    </script>
+    <!-- Twitter Button -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </body>
+</html>

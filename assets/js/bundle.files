@@ -1,0 +1,17 @@
+<script src="/assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/vendor/jquery.timeago.min.js"></script>
+<script src="/assets/js/vendor/prism.min.js"></script>
+<script src="/assets/js/vendor/prism-toolbar.min.js"></script>
+<script src="/assets/js/vendor/clipboard.min.js"></script>
+<script src="/assets/js/vendor/prism-copy-to-clipboard.min.js"></script>
+<script src="/assets/js/vendor/jquery-stickyNavigator.js"></script>
+<script src="/assets/js/vendor/lunr.min.js"></script>
+<script src="/assets/js/search.min.js"></script>
+<script src="/assets/js/vendor/materialize.min.js"></script>
+<script src="/assets/js/vendor/sharer.min.js"></script>
+<script src="/assets/js/vendor/yyrtThhnJmkklOppsDffhgTggyh.js"></script>
+<script src="/assets/js/vendor/anchor.min.js"></script>
+<script src="/assets/js/init.min.js"></script>
+<script>$('#sticky-navigator').stickyNavigator();</script>
+
+
