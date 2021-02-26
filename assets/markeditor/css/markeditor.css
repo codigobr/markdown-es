@@ -836,8 +836,8 @@ body {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/assets/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/assets/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("/assets/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("/assets/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("/assets/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("/assets/markeditor/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("/assets/markeditor/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("/assets/markeditor/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("/assets/markeditor/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("/assets/markeditor/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("/assets/markeditor/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3180,8 +3180,8 @@ body {
 /*! prefixes.scss v0.1.0 | Author: Pandao | https://github.com/pandao/prefixes.scss | MIT license | Copyright (c) 2015 */
 @font-face {
   font-family: 'editormd-logo';
-  src: url("/assets/fonts/editormd-logo.eot?-5y8q6h");
-  src: url("/assets/fonts/editormd-logo.eot?#iefix-5y8q6h") format("embedded-opentype"), url("/assets/fonts/editormd-logo.woff?-5y8q6h") format("woff"), url("/assets/fonts/editormd-logo.ttf?-5y8q6h") format("truetype"), url("/assets/fonts/editormd-logo.svg?-5y8q6h#icomoon") format("svg");
+  src: url("/assets/markeditor/fonts/editormd-logo.eot?-5y8q6h");
+  src: url("/assets/markeditor/fonts/editormd-logo.eot?#iefix-5y8q6h") format("embedded-opentype"), url("/assets/markeditor/fonts/editormd-logo.woff?-5y8q6h") format("woff"), url("/assets/markeditor/fonts/editormd-logo.ttf?-5y8q6h") format("truetype"), url("/assets/markeditor/fonts/editormd-logo.svg?-5y8q6h#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
